@@ -29,7 +29,7 @@ parser.add_argument(
 parser.add_argument(
     '--data_dir',
     type=str,
-    default='./data',
+    default='../datasets/CIFAR10',
     help='dataset path')
 
 parser.add_argument(
