@@ -58,6 +58,9 @@ parser.add_argument(
 
 args = parser.parse_args()
 
+for name, value in vars(args).items():
+    print(f'{name} : {value}')
+
 # gpu setting
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
 cudnn.benchmark = True
