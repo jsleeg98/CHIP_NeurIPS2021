@@ -35,7 +35,7 @@ parser.add_argument(
 parser.add_argument(
     '--pretrain_dir',
     type=str,
-    default=None,
+    default='./pretrained_models/resnet_56.pt',
     help='dir for the pretriained model to calculate feature maps')
 
 parser.add_argument(
